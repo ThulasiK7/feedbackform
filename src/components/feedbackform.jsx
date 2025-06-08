@@ -14,6 +14,7 @@ const FeedbackForm = ({addFeedback}) => {
     }))
   }
   const submit=(s)=>{
+    alert("Your Feedback is submitted successfully")
     s.preventDefault();
     if(formData.name.trim()&&formData.email.trim()&&formData.feedback.trim()){
       addFeedback(formData)
@@ -25,7 +26,7 @@ const FeedbackForm = ({addFeedback}) => {
       <h1>Feedback Form</h1>
       <input type="text" name="name"placeholder='enter your name...' value={formData.name} onChange={change}required/><br></br>
       <input type="email"name="email" placeholder='enter your email...'value={formData.email}onChange={change} required/><br />
-      <textarea name="feedback" id="feedback" placeholder='enter your valuble feedback here...' value={formData.feedback} onChange={change}></textarea><br />
+      <textarea name="feedback" id="feedback" placeholder='enter your valuble feedback here...' value={formData.feedback} onChange={change} required></textarea><br />
       <button type='submit'>submit</button>
     </form>
   );
