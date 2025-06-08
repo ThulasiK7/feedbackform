@@ -4,6 +4,41 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+
+Feedback Form Project
+
+A simple feedback form application built with React, Node.js, Express, and MongoDB.
+
+Features:
+
+- Users can submit feedback with their name, email, and feedback message.
+- Feedback is stored in a MongoDB database.
+- Feedback is displayed on the webpage.
+
+Technologies Used:
+
+- Frontend: React
+- Backend: Node.js, Express
+- Database: MongoDB
+- API: RESTful API
+
+### `Installation:`
+
+1. Clone the repository: git clone https://github.com/ThulasiK7/feedbackform.git
+2. Install dependencies: npm install
+3. Start the server: node server.js
+4. Start the React app: npm start
+
+### `Usage:`
+
+1. Open http://localhost:3000 in your web browser.
+2. Fill out the feedback form and submit it.
+3. View submitted feedback on the webpage.
+
+
+
+
+
 In the project directory, you can run:
 
 ### `npm start`
